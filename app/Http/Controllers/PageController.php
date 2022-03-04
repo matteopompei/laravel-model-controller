@@ -9,6 +9,7 @@ use App\Movie;
 class PageController extends Controller
 {
     public function index() {
-        return view('welcome');
+        $appoggio = Movie::all();
+        return view('welcome', compact('appoggio'));
     }
 }

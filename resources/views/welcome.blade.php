@@ -9,7 +9,7 @@
 </head>
 
 <body>
-  Prova
+  @dd($appoggio)
 </body>
 
 </html>
