@@ -1,1 +1,42 @@
-//
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+body {
+    background: #000;
+    color: #fff;
+    font-family: "Courier New", Courier, monospace;
+    font-size: 1.5rem;
+    line-height: 3.5rem;
+}
+
+.container {
+    padding: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    gap: 50px;
+}
+
+.card {
+    padding: 35px 20px;
+    height: 400px;
+    width: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 15px;
+    transition: 0.5s;
+    cursor: pointer;
+
+    &:hover {
+        background: rgba(255, 255, 255, 0.3);
+    }
+}
